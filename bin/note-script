@@ -1,0 +1,4 @@
+#!/bin/sh
+
+DATE=$(date "+%Y|%m|%d|%H:%M")
+script ~/log/script-"$DATE".log.sh

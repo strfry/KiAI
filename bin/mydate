@@ -1,0 +1,2 @@
+#date +%Y%M%D-%H:%M
+date "+%Y|%M|%D|%H:%M"
