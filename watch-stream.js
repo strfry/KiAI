@@ -1,4 +1,4 @@
-var server = "http://" + window.location.hostname + ":61077/janus";
+var server = "http://" + window.location.hostname + "/janus/";
 
 var janus = null;
 var streaming = null;
@@ -158,6 +158,10 @@ function updateStreamsList() {
 
 			});
 			$('#watch').removeAttr('disabled').click(startStream);
+
+			Janus.log("Autostarting Stream 1");
+			selectedStream = 1;
+			startStream();
 		}
 	}});
 }

@@ -125,7 +125,7 @@ Janus.init = function(options) {
 			}
 			oHead.appendChild(oScript);
 		}
-		addJsList(["adapter.js","jquery.min.js"]);
+		addJsList(["js/adapter.js","jquery.min.js"]);
 	}
 };
 
