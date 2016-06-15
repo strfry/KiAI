@@ -51,6 +51,18 @@
 	
 </div>
 
-
+  <div id="commands">
+            <details open="">
+                <summary><b>Advanced options</b></summary>
+                <fieldset>
+                    <span>Remote Peer/Signalling Server Address: </span><input required="" type="text" id="signalling_server" value="stream.strfry.org:8088" title="&lt;host&gt;:&lt;port&gt;, default address is autodetected"><br>
+                    <span>Optional ICE Servers (STUN/TURN): </span><input type="text" id="ice_servers" value="" title="array of RTCIceServer objects as valid JSON string">
+                </fieldset>
+            </details>
+<!---
+            <button id="start" style="background-color: green; color: white" onclick="start();">Call!</button>
+            <button disabled="" id="stop" style="background-color: red; color: white" onclick="stop();">Hang up</button>
+--!>
+        </div>
 
 </body></html>
