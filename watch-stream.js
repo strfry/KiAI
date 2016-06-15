@@ -1,5 +1,6 @@
 var server = "http://" + window.location.hostname + "/janus/";
 server = "http://stream.strfry.org:8088/janus";
+server = "http://" + window.location.hostname + '/janus/';
 
 var janus = null;
 var streaming = null;
