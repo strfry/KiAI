@@ -1,4 +1,5 @@
 var server = "http://" + window.location.hostname + "/janus/";
+server = "http://stream.strfry.org:8088/janus";
 
 var janus = null;
 var streaming = null;
@@ -13,7 +14,7 @@ $(document).ready(function() {
 	// Initialize the library (all console debuggers enabled)
 	Janus.init({debug: "all", callback: function() {
 		// Use a button to start the demo
-		$('#start').click(function() {
+		//$('#start').click(function() {
 			if(started)
 				return;
 			started = true;
@@ -125,7 +126,7 @@ $(document).ready(function() {
 						window.location.reload();
 					}
 				});
-		});
+//		});
 	}});
 });
 
