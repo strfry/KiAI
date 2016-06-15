@@ -5,7 +5,8 @@ var streaming = null;
 var started = false;
 var spinner = null;
 
-var selectedStream = null;
+// Select 1 for H264, 2 for VP8 (Chrome Support)
+var selectedStream = 2;
 
 
 $(document).ready(function() {
@@ -152,7 +153,7 @@ function updateStreamsList() {
 				$('#streamslist').append("<li><a href='#' id='" + list[mp]["id"] + "'>" + list[mp]["description"] + " (" + list[mp]["type"] + ")" + "</a></li>");
 			}
 			$('#streamslist a').unbind('click').click(function() {
-				selectedStream = $(this).attr("id");
+				//selectedStream = $(this).attr("id");
 				$('#streamset').html($(this).html()).parent().removeClass('open');
 				return false;
 
@@ -160,7 +161,6 @@ function updateStreamsList() {
 			$('#watch').removeAttr('disabled').click(startStream);
 
 			Janus.log("Autostarting Stream 1");
-			selectedStream = 1;
 			startStream();
 		}
 	}});
