@@ -1,17 +1,22 @@
 #!/bin/bash
 
-bluetoothctl -a << EOF
-power on
-pairable on
+set -x
 
-scan on
+bt-adapter -s Discoverable 1
+bt-adapter -s Pairable 1
+bt-adapter -s Powered 1
 
-list
-EOF
+#bt-agent -c KeyboardOnly
 
-#agent KeyboardOnly
-#default-agent
+DEVICE=90:7F:61:11:2D:4A
 
-# pair xyz
+echo $DEVICE
+#sudo bt-device -c $DEVICE
+
+#sudo btmon
 
 #pair 90:7F:61:11:2D:4A
+
+#DEVICE=$(bt-device -l | grep ThinkPad | cut -f 7 -d " ")
+#echo $DEVICE
+bt-device  --set 90:7F:61:11:2D:4A  Alias ThinkKeys
