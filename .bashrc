@@ -18,3 +18,5 @@ alias l='ls $LS_OPTIONS -lA'
 # alias mv='mv -i'
 
 source /home/pi/bin/aliases
+
+Hello World!
