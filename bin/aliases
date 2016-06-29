@@ -1,2 +1,2 @@
 alias sagi="sudo apt-get install"
-
+alias apse="apt-cache search"
