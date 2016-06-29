@@ -1,0 +1,10 @@
+#!/bin/sh
+
+nano $@
+
+
+#TODO Test Result, do stuff just in case sth. got written, return value of nano?
+
+chmod +x $1
+
+
