@@ -1,2 +1,5 @@
 [push]
 	default = simple
+[user]
+	name = Jonathan
+	email = mail@strfry.org
