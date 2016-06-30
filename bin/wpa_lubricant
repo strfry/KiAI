@@ -1,0 +1,8 @@
+#!/bin/bash
+
+sudo svc -o /service/wpa_lubricant
+#cat /service/wpa_lubricant/log/main/current
+
+
+# if $1 == STOP
+# svc -d /service/wpa_lubricant
