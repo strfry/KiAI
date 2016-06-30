@@ -1,2 +1,5 @@
 alias sagi="sudo apt-get install"
 alias apse="apt-cache search"
+alias sago="sudo apt-get download"
+
+alias fbterm="fbterm -s 33"
