@@ -114,3 +114,4 @@ fi
 
 
 source bin/aliases
+fortune | cowsay -f /usr/share/cowsay/cows/pony.cow 
