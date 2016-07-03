@@ -23,4 +23,4 @@ fi
 
 export LC_ALL=C
 
-source bin/aliases
+source ~/bin/aliases

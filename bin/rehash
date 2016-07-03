@@ -1,2 +1,2 @@
 source ~/.profile
-chmod +x bin/*
+chmod +x ~/bin/*
