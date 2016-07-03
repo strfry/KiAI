@@ -3,3 +3,7 @@ alias apse="apt-cache search"
 alias sago="sudo apt-get download"
 
 alias fbterm="fbterm -s 33"
+
+
+
+alias google="browser google.de/search?q="
