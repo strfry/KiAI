@@ -1,0 +1,11 @@
+#!/bin/sh
+
+BROWSER="links2 -g"
+
+URL=$1
+shift
+
+
+#BROWSER=echo
+
+$BROWSER "$URL""$@"
