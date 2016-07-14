@@ -8,3 +8,6 @@ alias fbterm="fbterm -s 33"
 
 
 alias google="browser google.de/search?q="
+
+#FBDev Terminal
+alias easton="weston-wrap"

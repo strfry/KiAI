@@ -114,4 +114,6 @@ fi
 
 
 source bin/aliases
-fortune | cowsay -f /usr/share/cowsay/cows/pony.cow 
+#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow 
+
+echo "You can't just kill people, Charlie!" | cowsay -f /usr/share/cowsay/cows/pony.cow
