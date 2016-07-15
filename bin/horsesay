@@ -1,0 +1,6 @@
+#!/bin/sh
+
+COW=$(ls /usr/share/cowsay/cows/* | shuf | head -n 1)
+
+cowsay -f $COW
+
