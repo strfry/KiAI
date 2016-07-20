@@ -4,5 +4,5 @@ COW=$(ls /usr/share/cowsay/cows/* | shuf | head -n 1)
 
 SAY=$@
 
-cowsay -f $COW "$SAT"
-echo "$SAT" | espeak
+cowsay -f $COW "$SAY "
+echo "$SAT" | espeak 2>/dev/null
