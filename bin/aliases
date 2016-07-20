@@ -6,10 +6,10 @@ alias sagu="sudo apt-get install"
 
 alias fbterm="fbterm -s 33"
 
-
-
 alias google="browser startpage.com/do/asearch?q="
 
 #FBDev Terminal
 alias easton="weston-wrap"
 
+
+alias pbpaste="xclip -out -selection clipboard"
