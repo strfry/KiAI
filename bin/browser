@@ -1,9 +1,15 @@
 #!/bin/sh
 
+
 BROWSER="links2 -g"
+BROWSER=uzbl
 
 URL=$1
-shift
 
-echo $@
-$BROWSER $URL"$@"
+shift
+GET="$@"
+
+REQUEST=$URL$GET
+
+echo $REQUEST
+$BROWSER $REQUEST
