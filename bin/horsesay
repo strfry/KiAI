@@ -2,5 +2,7 @@
 
 COW=$(ls /usr/share/cowsay/cows/* | shuf | head -n 1)
 
-cowsay -f $COW
+SAY=$@
 
+cowsay -f $COW "$SAT"
+echo "$SAT" | espeak

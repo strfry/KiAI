@@ -24,3 +24,8 @@ fi
 export LC_ALL=C
 
 rehash
+
+TZ=Europe/Berlin; export TZ
+alias e=espeak
+
+e Hello World!

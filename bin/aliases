@@ -1,5 +1,6 @@
 alias sagi="sudo apt-get install"
 alias apse="apt-cache search"
+alias apshow="apt-cache show"
 alias sago="sudo apt-get download"
 alias sagu="sudo apt-get install"
 
@@ -7,7 +8,8 @@ alias fbterm="fbterm -s 33"
 
 
 
-alias google="browser google.de/search?q="
+alias google="browser startpage.com/do/asearch?q="
 
 #FBDev Terminal
 alias easton="weston-wrap"
+
