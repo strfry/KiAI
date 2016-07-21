@@ -16,3 +16,5 @@ alias pbpaste="xclip -out -selection clipboard"
 
 alias pr0nsole="miniterm.py /dev/ttyACM* 115200 -e -D"
 
+alias e=espeak
+
