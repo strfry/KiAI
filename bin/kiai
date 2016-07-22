@@ -1,5 +1,5 @@
-#!/bin/sex
+#!/bin/sh -ex
 
-banner KIAI
+#banner KIAI
 
 source $HOME/kiai.0

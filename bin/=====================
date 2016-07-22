@@ -1,4 +1,4 @@
-#!/bin/sex
+#!/bin/sh -x
 
 echo Task: $TASK
 echo Args: $@
