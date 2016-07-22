@@ -1,5 +1,7 @@
 #!/bin/sex
 
+set +x
+
 banner KIAI
 
 source $HOME/kiai.0
