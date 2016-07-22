@@ -2,7 +2,10 @@
 
 
 #TODO Test for DISPLAY variable
-BROWSER="links2 -g"
+
+if [ ! $BROWSER ]
+  then BROWSER="links2 -g"
+fi
 
 if [ $DISPLAY ]
  then BROWSER=uzbl

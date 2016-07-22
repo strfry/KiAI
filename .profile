@@ -23,3 +23,4 @@ if [ "$BASH" ]; then
   fi
 fi
 
+TZ=Europe/Berlin; export TZ
