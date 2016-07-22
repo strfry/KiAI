@@ -1,4 +1,3 @@
-# ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -113,7 +112,16 @@ if ! shopt -oq posix; then
 fi
 
 
+
+kiai
+
+=====================
+
 source bin/aliases
 #fortune | cowsay -f /usr/share/cowsay/cows/pony.cow 
 
 echo "You can't just kill people, Charlie!" | cowsay -f /usr/share/cowsay/cows/pony.cow
+
+alias telebeam=sshfs
+telebeam strfry@zrh.strfry.org: zrh
+source kiai.0
