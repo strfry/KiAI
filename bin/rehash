@@ -1,6 +1,0 @@
-chmod +x ~/bin/*
-
-
-PWD=/home/pi/bin
-
-source $PWD/aliases
