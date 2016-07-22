@@ -1,0 +1,8 @@
+#!/bin/sh
+
+set -x
+LOCATION=Mainz
+
+
+curl wttr.in/"$LOCATION"
+set +x

@@ -1,0 +1,6 @@
+#date +%Y%M%D-%H:%M
+
+# TODO: Check for -t flag
+#date "+%d%b%Y|%H:%M"
+
+date "+%d%b%Y"

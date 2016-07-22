@@ -1,0 +1,3 @@
+#!/bin/sh
+
+/usr/games/cowsay Hello "   " $@ | figlet -w 200
