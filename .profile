@@ -1,6 +1,6 @@
 ########################
 
-PATH=/root/bin:"${PATH}"
+PATH=/root/bin:/usr/game:"${PATH}"
 
 #=========###+#++##++#
 
@@ -30,10 +30,7 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
-fi
+PATH="$HOME/bin:$PATH"
 
 export LC_ALL=C
 

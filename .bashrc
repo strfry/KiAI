@@ -65,4 +65,4 @@ if ! shopt -oq posix; then
 fi
 
 
-horsesay NIIEEEH
+kiai
