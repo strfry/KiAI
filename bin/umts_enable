@@ -1,7 +1,0 @@
-sudo modprobe usbserial vendor=0x19d2 product=0x0039
-
-cowsay Waiting for serial device...
-sleep 1
-
-
-echo AT+CPIN=8922 > /dev/ttyUSB2

@@ -1,7 +1,17 @@
-#!/existence/bin/sex
+#!/existence/bin/sex +x
 
 set +x
 
+if [ $1 ]; then
+  
+  # if $1 UPPERCASE -> TASK=$1
+  echo $TASK
+  banner $TASK
+  set -x
+  return 
+fi;
+
+set +x
 
 # Identify current Task
 
@@ -9,5 +19,23 @@ set +x
 
 # Run/Edit-Loop around that tasks implementation
 
+#=======-------=======
+#!/bin/sh -ex
+
+#banner KIAI
 
 source $HOME/kiai.0
+#!/bin/sh -e
+
+TASK=$1
+echo Task: $TASK
+
+
+#if [ $TASK -e "INTERACTIVE_EDITOR"]; then
+  xnano $TASK
+#fi
+
+echo Preparing git release of KiAi
+
+TASK=CLEANUP
+

@@ -1,5 +1,0 @@
-#!/bin/sh
-
-FILENAME="$1"
-
-sox "$FILENAME" -t wav -c 1 -  rate 22050 | sudo ~/FMRadio/fm_transmitter/fm_transmitter -f 99.9 -

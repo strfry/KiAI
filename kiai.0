@@ -3,7 +3,9 @@
 export TASK=CLEANUP
 export KIAI=kiai.0
 
-===================== CLEANUP
+alias XXXXXXXxxxxxxxXXXXXXX=kiai
+
+XXXXXXXxxxxxxxXXXXXXX CLEANUP
 
 git status
 
@@ -45,15 +47,31 @@ thd --dump /dev/input/event0
 
 google thinkpad compact bluetooth fn key remap
 
+=======
+=========================== INTERACTIVE_EDITOR << ===
+# 21X= == ===**===
 
-========================= AUTOSTART
-#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow
-
-
-alias telebeam=sshfs
-telebeam strfry@zrh.strfry.org: zrh
-
-
+echo SUCCESS
+exit
+>>>>>>> da4a9fee7b41e55c75f13600d0dd002655a97bed
 
 
+=========================== CLEANUP
 
+RET=$(git status -s | wc -l)
+git status
+
+exit $RET
+
+=========================== INSTALL
+
+cd
+git init
+git remote add github.kiai https://github.com/strfry/kiai/
+
+ln -s "$PWD"/etc/skel/.* .
+
+# "sed s/sex/sh -ex/g" -e 
+
+
+===
