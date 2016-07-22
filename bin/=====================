@@ -1,25 +1,18 @@
 #!/bin/sex
 
-TASK=$0
-echo $TASK
-exit 23
+echo Task: $TASK
+echo Args: $@
 
-===================== INTERACTIVE EDITOR
-
-echo SUCCESS
-exit
-
-===================== CLEANUP
-
-file *
-
-if [ ! $? ]; then
-  echo error
-  exit 23
+if [ "$TASK" == "$0" ]; then
+  exit 0
 fi
 
-
-
+if [ !$TASK]; then
+  export TASK=$0
+  echo $TASK
+else
+  echo foo
+fi
 
 
 echo Preparing git release of KiAi

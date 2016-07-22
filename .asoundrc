@@ -1,5 +1,0 @@
-# Usage:
-#  $ alsamixer -D equal
-#  $ aplay -Dplug:equalizer foo.wav
-
-pcm.!default "plug:equalizer"

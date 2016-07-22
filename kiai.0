@@ -7,7 +7,6 @@
 ===================== INTERACTIVE_EDITOR
 
 echo SUCCESS
-exit
 
 ===================== CLEANUP
 
@@ -23,6 +22,7 @@ fi
 
 ===================== NAME IDEAS
 
+set +e
 ritualz
 bell
 book
