@@ -1,25 +1,24 @@
 #!/bin/sex
 
-#source $HOME/bin/aliases
+export TASK=CLEANUP
+export KIAI=kiai.0
+
+===================== CLEANUP
+
+git status
+
+
+===================== TODO
+
+cd bin
+ln -s kiai ====
+cd
 
 ===================== INTERACTIVE_EDITOR << ===
 # 21X= == ===**===
 
 echo SUCCESS
 exit
-
-
-===================== CLEANUP
-
-file *
-
-if [ ! $? ]; then
-  echo error
-  exit 23
-fi
-
-
-
 
 ===================== NAME IDEAS
 

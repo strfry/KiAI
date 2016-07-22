@@ -1,7 +1,13 @@
-#!/bin/sex
+#!/existence/bin/sex
 
 set +x
 
-banner KIAI
+
+# Identify current Task
+
+# Find Task implementation
+
+# Run/Edit-Loop around that tasks implementation
+
 
 source $HOME/kiai.0
