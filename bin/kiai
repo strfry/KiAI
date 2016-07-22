@@ -3,3 +3,19 @@
 #banner KIAI
 
 source $HOME/kiai.0
+#!/bin/sh -e
+
+TASK=$1
+echo Task: $TASK
+
+
+#if [ $TASK -e "INTERACTIVE_EDITOR"]; then
+  xnano $TASK
+#fi
+
+echo Preparing git release of KiAi
+
+TASK=CLEANUP
+
+
+

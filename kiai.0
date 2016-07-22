@@ -1,14 +1,19 @@
-#!/bin/sh -ex
+=========================== INTERACTIVE_EDITOR << ===
+# 21X= == ===**===
+
+echo SUCCESS
+exit
+>>>>>>> da4a9fee7b41e55c75f13600d0dd002655a97bed
 
 
-===================== CLEANUP
+=========================== CLEANUP
 
 RET=$(git status -s | wc -l)
 git status
 
 exit $RET
 
-===================== INSTALL
+=========================== INSTALL
 
 cd
 git init
@@ -17,3 +22,6 @@ git remote add github.kiai https://github.com/strfry/kiai/
 ln -s "$PWD"/etc/skel/.* .
 
 # "sed s/sex/sh -ex/g" -e 
+
+
+===

@@ -1,0 +1,22 @@
+#!/bin/sh
+
+exec /usr/bin/nano "$@"
+
+echo "<hexa>"
+echo -n "Wir haben uns das jetzt lang genug mit euch angeschaut"
+sleep 0.2
+
+for i in 1 2 3; do
+  sleep "0.3"
+  echo -n "."
+done
+echo
+echo "</hexa>"
+sleep 0.5
+
+vim $@
+
+
+
+
+
