@@ -1,3 +1,10 @@
+########################
+
+PATH=/root/bin:"${PATH}"
+
+#=========###+#++##++#
+
+
 # ~/.profile: executed by Bourne-compatible login shells.
 
 if [ "$BASH" ]; then

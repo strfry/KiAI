@@ -14,11 +14,8 @@ alias mv='mv -i'
 
 source /home/pi/bin/aliases
 
-export PATH=/root/bin:"${PATH}"
-
 Hello World!
 
-set -x
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
