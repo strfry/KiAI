@@ -1,6 +1,6 @@
 ########################
 
-PATH=/root/bin:/usr/game:"${PATH}"
+PATH=/root/bin:/usr/games:"${PATH}"
 
 #=========###+#++##++#
 
@@ -22,11 +22,10 @@ export LC_ALL=C
 
 rehash
 
-echo $PATH
-
 if [ "$BASH" ]; then
   if [ -f ~/.bashrc ]; then
     . ~/.bashrc
   fi
 fi
 
+kiai
