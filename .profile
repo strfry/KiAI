@@ -27,3 +27,13 @@ fi
 if [ -d "$HOME/bin" ] ; then
     PATH="$HOME/bin:$PATH"
 fi
+
+export LC_ALL=C
+
+rehash
+
+TZ=Europe/Berlin; export TZ
+
+FORTUNE=$(fortune)
+horsesay "$FORTUNE"
+

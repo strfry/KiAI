@@ -1,0 +1,4 @@
+#!/bin/sh
+#mkfifo fifo.wav
+
+sudo ./pi_fm_rds -freq 100.4 -audio -

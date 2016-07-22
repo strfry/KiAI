@@ -1,0 +1,17 @@
+#!/bin/sh
+
+
+set -x
+
+###
+cowsay No wlan1 detectecd, stopping HostAPd
+#
+sudo svc -d /service/hostapd
+###
+
+
+###
+cowsay Start wpa_supplicant
+#
+sudo wpa_supplicant -Dnl80211 -iwlan0 -c /etc/wpa_supplicant.conf
+###

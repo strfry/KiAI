@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!-- saved from url=(0080)file:///Users/jonathansieber/UberspaceHTML/darkstar.strfry.org/watch-stream.html -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Janus WebRTC Gateway: Streaming Demo</title>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/bootstrap.js"></script>
+<script type="text/javascript" src="./js/bootbox.min.js"></script>
+<script type="text/javascript" src="./js/spin.min.js"></script>
+<script type="text/javascript" src="./js/janus.js"></script>
+<script type="text/javascript" src="./watch-stream.js"></script>
+<link rel="stylesheet" href="./css/bootstrap.css" type="text/css">
+<link rel="stylesheet" href="./css/demo.css" type="text/css">
+</head>
+<body>
+
+
+
+
+
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="page-header">
+				<h1>Plugin Demo: Streaming
+					<button class="btn btn-default" autocomplete="off" id="start">Connect</button>
+	
+				</h1>
+			</div>
+			
+			<div class="container" id="streams">
+				
+			<div class="col-md-6">
+						<div class="panel panel-default" id="stream">
+  
+  <!---
+							<div class="panel-heading">
+								<h3 class="panel-title">Stream <span class="label label-info hide" id="status"></span></h3>
+							</div>
+							<div class="panel-body" id="stream"></div>
+
+--->
+						</div>
+					</div></div>
+		</div>
+	</div>
+
+	
+	
+</div>
+
+  <div id="commands">
+            <details open="">
+                <summary><b>Advanced options</b></summary>
+                <fieldset>
+                    <span>Remote Peer/Signalling Server Address: </span><input required="" type="text" id="signalling_server" value="stream.strfry.org:8088" title="&lt;host&gt;:&lt;port&gt;, default address is autodetected"><br>
+                    <span>Optional ICE Servers (STUN/TURN): </span><input type="text" id="ice_servers" value="" title="array of RTCIceServer objects as valid JSON string">
+                </fieldset>
+            </details>
+<!---
+            <button id="start" style="background-color: green; color: white" onclick="start();">Call!</button>
+            <button disabled="" id="stop" style="background-color: red; color: white" onclick="stop();">Hang up</button>
+--!>
+ </div>
+
+</body></html>
