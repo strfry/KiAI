@@ -1,0 +1,4 @@
+#!/bin/sh
+
+set -x
+sudo svc -d /etc/service/$1
