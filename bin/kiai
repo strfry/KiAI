@@ -1,5 +1,29 @@
-#!/bin/sex
+#!/bin/sex -ex
 
-banner KIAI
+if [ yes -a yes ]; then
+  source /dev/null
 
-source $HOME/kiai.0
+fi
+
+
+# Usage: kiai
+#        Find and list all available tasks
+
+# Heuristics to determine what kiai.google means..
+
+# Usage: kiai google
+
+# if argv == 2 and kiai.$1 exists and is executable,
+# and does not contain fragments, execute it line by line
+
+echo $0
+echo $1
+echo $2
+
+echo $@
+
+exit 23
+
+xnano kiai
+kiai
+cat kiai

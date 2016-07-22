@@ -1,4 +1,64 @@
 =========================== LOG 22Jul16
+=======
+#!/bin/sex
+
+#source $HOME/bin/aliases
+
+===================== INTERACTIVE_EDITOR << ===
+# 21X= == ===**===
+
+echo SUCCESS
+exit
+
+
+===================== CLEANUP
+
+file *
+
+if [ ! $? ]; then
+  echo error
+  exit 23
+fi
+
+
+
+
+===================== NAME IDEAS
+
+ritualz
+bell
+book
+candle
+
+
+===================== AUTORUN
+#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow
+#echo "You can't just kill people, Charlie!" | cowsay -f /usr/share/cowsay/cows/pony.cow
+
+alias telebeam=sshfs
+telebeam strfry@zrh.strfry.org: zrh
+
+sudo chmod 777 /run/mpd/ && mpd
+
+
+
+=======================
+
+thd --dump /dev/input/event0
+
+google thinkpad compact bluetooth fn key remap
+
+
+========================= AUTOSTART
+#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow
+
+
+alias telebeam=sshfs
+telebeam strfry@zrh.strfry.org: zrh
+
+
+
+>>>>>>> d43f96b19f08d247db7f8874832ab163a28a89d5
 
 google log all activity in shell
 
