@@ -6,18 +6,10 @@ if [ -n "$BASH_VERSION" ]; then
     fi
 fi
 
-# set PATH so it includes user's private bin if it exists
-if [ -d "$HOME/bin" ] ; then
-    PATH="$HOME/bin:$PATH"
-fi
+PATH="$HOME/bin:$PATH"
+TZ=Europe/Berlin; export TZ
 
+export SDL_VIDEODRIVER=fbcon
 export LC_ALL=C
 
 rehash
-
-TZ=Europe/Berlin; export TZ
-
-
-SDL_VIDEODRIVER=fbcon
-
-source bin/aliases

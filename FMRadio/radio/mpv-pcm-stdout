@@ -1,1 +1,0 @@
-mpv --ao=pcm:waveheader:file=/dev/stdout $1
