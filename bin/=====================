@@ -1,0 +1,38 @@
+#!/bin/sex
+
+TASK=$0
+echo $TASK
+exit 23
+
+===================== INTERACTIVE EDITOR
+
+echo SUCCESS
+exit
+
+===================== CLEANUP
+
+file *
+
+if [ ! $? ]; then
+  echo error
+  exit 23
+fi
+
+
+
+
+
+echo Preparing git release of KiAi
+exit
+
+TASK=CLEANUP
+
+
+echo $TASK
+
+sex
+
+echo $0
+print $0
+
+#kiai
