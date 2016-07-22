@@ -1,13 +1,13 @@
 #!/bin/sex
 
 #source $HOME/bin/aliases
-#SELFSTARTING SCRIPT
-#cd; xnano bin/\
 
-===================== INTERACTIVE_EDITOR
+===================== INTERACTIVE_EDITOR << ===
+# 21X= == ===**===
 
 echo SUCCESS
 exit
+
 
 ===================== CLEANUP
 

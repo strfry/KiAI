@@ -1,38 +1,18 @@
 #!/bin/sh -e
 
-TASK=$0
+TASK=$1
 echo Task: $TASK
-exit 23
 
-===================== INTERACTIVE EDITOR
 
-echo SUCCESS
-exit
-
-===================== CLEANUP
-
-file *
-
-if [ ! $? ]; then
-  echo error
-  exit 23
+if [ -e $TASK == "INTERACTIVE_EDITOR"]; then
+  xnano $TASK
 fi
 
-
-
-
-
 echo Preparing git release of KiAi
-exit
 
 TASK=CLEANUP
 
 
-echo $TASK
+echo =========================== $TASK
 
-sex
 
-echo $0
-print $0
-
-#kiai
