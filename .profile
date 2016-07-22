@@ -1,3 +1,10 @@
+########################
+
+PATH=/root/bin:/usr/game:"${PATH}"
+
+#=========###+#++##++#
+
+
 # ~/.profile: executed by Bourne-compatible login shells.
 
 mesg n
@@ -23,4 +30,3 @@ if [ "$BASH" ]; then
   fi
 fi
 
-TZ=Europe/Berlin; export TZ
