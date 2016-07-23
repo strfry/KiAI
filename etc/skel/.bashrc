@@ -1,6 +1,8 @@
 # PS1='${debian_chroot:+($debian_chroot)}\h:\w\$ '
 # umask 022
 
+echo $PATH
+
 # You may uncomment the following lines if you want `ls' to be colorized:
 export LS_OPTIONS='--color=auto'
 eval "`dircolors`"
@@ -12,10 +14,6 @@ alias rm='rm -i'
 alias cp='cp -i'
 alias mv='mv -i'
 
-source /home/pi/bin/aliases
-
-Hello World!
-
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
 
@@ -25,13 +23,8 @@ case $- in
       *) return;;
 esac
 
-# don't put duplicate lines or lines starting with space in the history.
-# See bash(1) for more options
 HISTCONTROL=ignoreboth
-
-# append to the history file, don't overwrite it
 shopt -s histappend
-
 HISTSIZE=1000
 HISTFILESIZE=2000
 
@@ -44,13 +37,12 @@ shopt -s checkwinsize
 shopt -s globstar
 
 # make less more friendly for non-text input files, see lesspipe(1)
-#[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
+[ -x /usr/bin/lesspipe ] && eval "$(SHELL=/bin/sh lesspipe)"
 
 # set variable identifying the chroot you work in (used in the prompt below)
 #if [ -z "${debian_chroot:-}" ] && [ -r /etc/debian_chroot ]; then
 #    debian_chroot=$(cat /etc/debian_chroot)
 #fi
-
 
 
 # enable programmable completion features (you don't need to enable
@@ -64,5 +56,3 @@ if ! shopt -oq posix; then
   fi
 fi
 
-
-horsesay NIIEEEH

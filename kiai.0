@@ -1,0 +1,168 @@
+XXXxxxXXX Shortcuts to differerent environments
+========= DOCUMENTATION BLOCK
+--------- OTHER BLOCK
+XXXxxxXXX EXEC TASK DEFINITION
+===---=== DOCUMENTATION TAG
+
+
+========= USAGE
+
+=========================== KIAI USAGE
+
+
+======== PRIORITY
+===========================     X27
+=====================           X21
+
+
+-------- Directory Structure
+
+/existence Global Repository, /etc
+
+
+
+--------- Command Reference
+sex		Alias to busybox sh -ex
+kiai		Main command
+~/kiai		Equivalent to .bashrc
+~/kiai.0	Current Workspace
+~/kiai.TASK	Independent Task
+
+#!/existence/bin/kiai
+
+=========================== SKIP
+
+SEX="==="
+
+if [ ! -f bin/sex ]; then
+  xnano === bin/sex
+fi
+
+=========================== TRIGGERHAPPY
+
+thd --dump /dev/input/event*
+mpc next
+
+exit 42
+
+====================
+
+horsesay NIIEEEH
+
+==================== SPRUECHE
+Admins, Liebt Eure User!
+
+Der User ist der Herrscher.
+
+geRootet heisst Dienen, rooten heisst herrschen
+
+==================== FEINDLICHES WELTNETZ
+
+So long suckers
+Wed Jun 29 23:41:59 UTC 2016
+
+
+======================
+git rm -f .bash_history
+# .bash_history is bad git log
+
+
+======================= MPSYOUTUBE
+
+mpsyt
+python -m pafy
+# dont want to pip install
+pip install pafy
+
+===================== ETC ORGA
+
+google etckeeper
+
+
+===================== UNICODE FUBAR
+
+unicode_start
+stty iutf8
+
+fix this unicode mess
+
+
+google $(head -n 1 kiai.google)
+
+exit 0
+
+=========================== DOC
+
+Usage: =========================== TASK
+
+
+=========================== GOOGLE
+
+# unknown fragment, create new task
+
+
+
+
+
+=========================== LOG 22Jul16
+=======
+#!/bin/sex
+
+#source $HOME/bin/aliases
+
+===================== INTERACTIVE_EDITOR << ===
+# 21X= == ===**===
+
+echo SUCCESS
+exit
+
+
+===================== CLEANUP
+
+file *
+
+if [ ! $? ]; then
+  echo error
+  exit 23
+fi
+
+
+
+
+===================== NAME IDEAS
+
+ritualz
+bell
+book
+candle
+
+
+===================== AUTORUN
+#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow
+#echo "You can't just kill people, Charlie!" | cowsay -f /usr/share/cowsay/cows/pony.cow
+
+alias telebeam=sshfs
+telebeam strfry@zrh.strfry.org: zrh
+
+sudo chmod 777 /run/mpd/ && mpd
+
+
+
+=======================
+
+thd --dump /dev/input/event0
+
+google thinkpad compact bluetooth fn key remap
+
+
+========================= AUTOSTART
+#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow
+
+
+alias telebeam=sshfs
+telebeam strfry@zrh.strfry.org: zrh
+
+
+google log all activity in shell
+
+#patch zdate DDMonYY Format
