@@ -1,6 +1,6 @@
 #!/bin/sh
 
-exec /usr/bin/nano $@
+exec /usr/bin/nano "$@"
 
 echo "<hexa>"
 echo -n "Wir haben uns das jetzt lang genug mit euch angeschaut"

@@ -1,0 +1,32 @@
+#!/existence/bin/sex -ex
+
+# Usage: kiai
+#        Find and list all available tasks
+
+# Heuristics to determine what kiai.google means..
+
+# Usage: kiai google
+
+# if argv == 2 and kiai.$1 exists and is executable,
+# and does not contain fragments, execute it line by line
+
+echo $0
+echo $1
+echo $2
+
+echo $@
+
+
+nano kiai.0
+sex ./kiai.0
+
+if [ ! $? ]; then
+#  sh -c $0 "$@"
+fi
+
+
+exit 23
+
+xnano kiai
+kiai
+cat kiai
