@@ -1,4 +1,6 @@
-#!/existence/bin/sex -ex
+#!/bin/sex
+
+k $1
 
 # Usage: kiai
 #        Find and list all available tasks

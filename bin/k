@@ -1,0 +1,8 @@
+#speak!/bin/sex
+
+source /existence/profile
+
+
+if [ $? ]; then
+  espeak k
+fi;

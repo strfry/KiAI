@@ -1,3 +1,14 @@
+e k
+
+google skype command line client
+
+k
+
+
+
+
+
+
 XXXxxxXXX Shortcuts to differerent environments
 ========= DOCUMENTATION BLOCK
 --------- OTHER BLOCK
@@ -166,3 +177,12 @@ telebeam strfry@zrh.strfry.org: zrh
 google log all activity in shell
 
 #patch zdate DDMonYY Format
+
+
+
+
+
+XXXXXXXXXXXXXXXXXXXXXXX KIAI IMPL
+
+grep TRIGGERHAPPY kiai.0 -A 6
+grep TRIGGERHAPPY kiai.0 -A 6 -B 0
