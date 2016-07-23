@@ -1,1 +1,0 @@
-/home/kiai/etc/skel/.profile

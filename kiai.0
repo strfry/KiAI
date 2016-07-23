@@ -1,5 +1,42 @@
 #!/bin/sex
 
+REPL loop
+bash interactive shell in bash
+
+===================== BLUETOOTH Dongles
+
+bluetoothctl <<
+[bluetooth]# devices
+Device 90:7F:61:11:2D:4A ThinkPad Compact Bluetooth Keyboard with TrackPoint
+[bluetooth]# scan on
+Discovery started
+[CHG] Controller 00:15:83:E8:46:40 Discovering: yes
+[NEW] Device 01:AC:78:E6:C1:86 iTAG
+[bluetooth]# pair 01:AC:78:E6:C1:86
+Attempting to pair with 01:AC:78:E6:C1:86
+[CHG] Device 01:AC:78:E6:C1:86 Connected: yes
+[CHG] Device 01:AC:78:E6:C1:86 UUIDs:
+        00001800-0000-1000-8000-00805f9b34fb
+        00001801-0000-1000-8000-00805f9b34fb
+        00001802-0000-1000-8000-00805f9b34fb
+        00001803-0000-1000-8000-00805f9b34fb
+        00001804-0000-1000-8000-00805f9b34fb
+        0000180a-0000-1000-8000-00805f9b34fb
+        0000180f-0000-1000-8000-00805f9b34fb
+        0000ffa0-0000-1000-8000-00805f9b34fb
+        0000ffe0-0000-1000-8000-00805f9b34fb
+[CHG] Device 01:AC:78:E6:C1:86 Paired: yes
+Pairing successful
+[CHG] Device 01:AC:78:E6:C1:86 Modalias: bluetooth:v000Ep3412d6701
+[CHG] Device 01:AC:78:E6:C1:86 Connected: no
+
+
+===================== IDEAS
+
+KIAI must not generate more output than is processed
+=====================
+
+
 export TASK=CLEANUP
 export KIAI=kiai.0
 
