@@ -1,3 +1,31 @@
+source /existence/etc/profile
+
+===========================
+
+
+unicode_start
+stty iutf8
+
+fix this unicode mess
+
+
+google $(head -n 1 kiai.google)
+
+exit 0
+
+=========================== DOC
+
+Usage: =========================== TASK
+
+
+=========================== GOOGLE
+
+# unknown fragment, create new task
+
+
+
+
+
 =========================== LOG 22Jul16
 =======
 #!/bin/sex

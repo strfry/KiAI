@@ -1,10 +1,4 @@
-#!/bin/sex -ex
-
-if [ yes -a yes ]; then
-  source /dev/null
-
-fi
-
+#!/existence/bin/sex -ex
 
 # Usage: kiai
 #        Find and list all available tasks
@@ -21,6 +15,15 @@ echo $1
 echo $2
 
 echo $@
+
+
+nano kiai.0
+sex ./kiai.0
+
+if [ ! $? ]; then
+#  sh -c $0 "$@"
+fi
+
 
 exit 23
 
