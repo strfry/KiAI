@@ -1,0 +1,80 @@
+XXXxxxXXX Shortcuts to differerent environments
+========= DOCUMENTATION BLOCK
+--------- OTHER BLOCK
+XXXxxxXXX EXEC TASK DEFINITION
+===---=== DOCUMENTATION TAG
+
+
+========= USAGE
+
+=========================== KIAI USAGE
+
+
+======== PRIORITY
+===========================     X27
+=====================           X21
+
+
+-------- Directory Structure
+
+/existence Global Repository, /etc
+
+
+
+--------- Command Reference
+sex		Alias to busybox sh -ex
+kiai		Main command
+~/kiai		Equivalent to .bashrc
+~/kiai.0	Current Workspace
+~/kiai.TASK	Independent Task
+
+#!/existence/bin/kiai
+
+=========================== SKIP
+
+SEX="==="
+
+if [ ! -f bin/sex ]; then
+  xnano === bin/sex
+fi
+
+=========================== TRIGGERHAPPY
+
+thd --dump /dev/input/event*
+mpc next
+
+exit 42
+
+====================
+
+horsesay NIIEEEH
+
+==================== SPRUECHE
+Admins, Liebt Eure User!
+
+Der User ist der Herrscher.
+
+geRootet heisst Dienen, rooten heisst herrschen
+
+==================== FEINDLICHES WELTNETZ
+
+So long suckers
+Wed Jun 29 23:41:59 UTC 2016
+
+
+======================
+git rm -f .bash_history
+# .bash_history is bad git log
+
+
+======================= MPSYOUTUBE
+
+mpsyt
+python -m pafy
+# dont want to pip install
+pip install pafy
+
+===================== ETC ORGA
+
+google etckeeper
+

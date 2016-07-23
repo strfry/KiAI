@@ -1,10 +1,13 @@
 ########################
 
-PATH=/root/bin:/usr/game:"${PATH}"
+PATH=/usr/games:"${PATH}"
+
+source /existence/profile
 
 #=========###+#++##++#
 
 
+###################### DEBIAN STUFF
 # ~/.profile: executed by Bourne-compatible login shells.
 
 if [ "$BASH" ]; then
@@ -13,7 +16,7 @@ if [ "$BASH" ]; then
   fi
 fi
 
-mesg n
+mesg n # Disable Write Access to Terminal
 
 # see /usr/share/doc/bash/examples/startup-files for examples.
 # the files are located in the bash-doc package.
