@@ -3,6 +3,48 @@
 REPL loop
 bash interactive shell in bash
 
+===================== ELEKTR01N
+
+Cloudsigma:
+	- Assign other IP to BSD VM
+	- Route that through PeerVPN (NAT??)
+
+Web Interface
+
+===================== UV4l
+
+WebRTC module thing fails with obscure "No Video Device found"
+IT is looking for /dev/video, need to start uv4l with -n video!!
+
+Probably stolen code
+
+
+Luca is a royal asshole and waster of peoples time
+
+- Features deliberately broken on non-demo os
+-- Advertised Features suddendly disabled (in this limited edition)
+- demo os does not ship wifi firmware
+- Undocumented --license-key option
+- Demo OS Download over google drive
+- The image is uncompressed, took me one hour wait
+
+UV4l is spamming google results on Pi+WebRTC, announcing this shit everywhere
+
+Then you invest 1-2 hours, and when you find out it is not working, you are fucked.
+
+Hope you die soon,
+Jonathan
+
+===================== PRIORITIES
+
+moar sd cards
+where tf is my sd card reader???
+
+stupid roadblocks
+
+UV4l skype replacement
+
+
 ===================== BLUETOOTH Dongles
 
 bluetoothctl <<
