@@ -1,5 +1,15 @@
+<<<<<<< HEAD
 exit 23
 
+=======
+#!/bin/sex
+
+REPL loop
+bash interactive shell in bash
+
+===================== ELEKTR01N
+=======
+>>>>>>> kiai
 XXXxxxXXX Shortcuts to differerent environments
 ========= DOCUMENTATION BLOCK
 --------- OTHER BLOCK
@@ -114,22 +124,107 @@ Usage: =========================== TASK
 
 ===================== INTERACTIVE_EDITOR << ===
 # 21X= == ===**===
+>>>>>>> 8df71d4917460e2fc6c289560d430eea6603a780
 
-echo SUCCESS
-exit
+Cloudsigma:
+	- Assign other IP to BSD VM
+	- Route that through PeerVPN (NAT??)
 
+Web Interface
+
+===================== UV4l
+
+WebRTC module thing fails with obscure "No Video Device found"
+IT is looking for /dev/video, need to start uv4l with -n video!!
+
+Probably stolen code
+
+
+Luca is a royal asshole and waster of peoples time
+
+- Features deliberately broken on non-demo os
+-- Advertised Features suddendly disabled (in this limited edition)
+- demo os does not ship wifi firmware
+- Undocumented --license-key option
+- Demo OS Download over google drive
+- The image is uncompressed, took me one hour wait
+
+- What is this index=0 shit??
+
+UV4l is spamming google results on Pi+WebRTC, announcing this shit everywhere
+
+Then you invest 1-2 hours, and when you find out it is not working, you are fucked.
+
+Hope you die soon,
+Jonathan
+
+===================== PRIORITIES
+
+moar sd cards
+where tf is my sd card reader???
+
+stupid roadblocks
+
+UV4l skype replacement
+
+
+===================== BLUETOOTH Dongles
+
+bluetoothctl <<
+[bluetooth]# devices
+Device 90:7F:61:11:2D:4A ThinkPad Compact Bluetooth Keyboard with TrackPoint
+[bluetooth]# scan on
+Discovery started
+[CHG] Controller 00:15:83:E8:46:40 Discovering: yes
+[NEW] Device 01:AC:78:E6:C1:86 iTAG
+[bluetooth]# pair 01:AC:78:E6:C1:86
+Attempting to pair with 01:AC:78:E6:C1:86
+[CHG] Device 01:AC:78:E6:C1:86 Connected: yes
+[CHG] Device 01:AC:78:E6:C1:86 UUIDs:
+        00001800-0000-1000-8000-00805f9b34fb
+        00001801-0000-1000-8000-00805f9b34fb
+        00001802-0000-1000-8000-00805f9b34fb
+        00001803-0000-1000-8000-00805f9b34fb
+        00001804-0000-1000-8000-00805f9b34fb
+        0000180a-0000-1000-8000-00805f9b34fb
+        0000180f-0000-1000-8000-00805f9b34fb
+        0000ffa0-0000-1000-8000-00805f9b34fb
+        0000ffe0-0000-1000-8000-00805f9b34fb
+[CHG] Device 01:AC:78:E6:C1:86 Paired: yes
+Pairing successful
+[CHG] Device 01:AC:78:E6:C1:86 Modalias: bluetooth:v000Ep3412d6701
+[CHG] Device 01:AC:78:E6:C1:86 Connected: no
 
 ===================== CLEANUP
 
-file *
 
-if [ ! $? ]; then
-  echo error
-  exit 23
-fi
+===================== IDEAS
 
+KIAI must not generate more output than is processed
+=====================
 
 
+export TASK=CLEANUP
+export KIAI=kiai.0
+
+alias XXXXXXXxxxxxxxXXXXXXX=kiai
+
+XXXXXXXxxxxxxxXXXXXXX CLEANUP
+
+git status
+
+
+===================== TODO
+
+cd bin
+ln -s kiai ====
+cd
+
+===================== INTERACTIVE_EDITOR << ===
+# 21X= == ===**===
+
+echo SUCCESS
+exit
 
 ===================== NAME IDEAS
 
@@ -156,15 +251,34 @@ thd --dump /dev/input/event0
 
 google thinkpad compact bluetooth fn key remap
 
+=======
+=========================== INTERACTIVE_EDITOR << ===
+# 21X= == ===**===
 
-========================= AUTOSTART
-#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow
+echo SUCCESS
+exit
+>>>>>>> da4a9fee7b41e55c75f13600d0dd002655a97bed
 
 
-alias telebeam=sshfs
-telebeam strfry@zrh.strfry.org: zrh
+=========================== CLEANUP
+
+RET=$(git status -s | wc -l)
+git status
+
+exit $RET
+
+=========================== INSTALL
+
+cd
+git init
+git remote add github.kiai https://github.com/strfry/kiai/
+
+ln -s "$PWD"/etc/skel/.* .
+
+# "sed s/sex/sh -ex/g" -e 
 
 
+=======
 google log all activity in shell
 
 #patch zdate DDMonYY Format

@@ -1,6 +1,23 @@
 #!/bin/sh -e
 
+<<<<<<< HEAD
 #===================== CLEANUP
+=======
+TASK=$1
+echo Task: $TASK
+echo SUCCESS
+exit
+echo Preparing git release of KiAi
+
+TASK=CLEANUP
+
+
+===================== INTERACTIVE_EDITOR
+
+echo SUCCESS
+
+===================== CLEANUP
+>>>>>>> kiai
 
 file *
 
@@ -9,7 +26,21 @@ if [ ! $? ]; then
   exit 23
 fi
 
+===================== NAME IDEAS
 
+ritualz (bell book candle)
+
+===================== AUTORUN
+
+#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow echo "You can't just kill people, Charlie!" | cowsay -f /usr/share/cowsay/cows/pony.cow
+
+alias telebeam=sshfs; telebeam strfry@zrh.strfry.org: zrh
+sudo chmod 777 /run/mpd/ && mpd
+
+========================= TRIGGERHAPPY
+
+thd --dump /dev/input/event0
+google thinkpad compact bluetooth fn key remap 
 
 
 ===================== NAME IDEAS
@@ -28,27 +59,12 @@ candle
 alias telebeam=sshfs
 telebeam strfry@zrh.strfry.org: zrh
 
-sudo chmod 777 /run/mpd/ && mpd
+mpd.kiai
 
-
-
-=======================
-
-thd --dump /dev/input/event0
-
-google thinkpad compact bluetooth fn key remap
-
-
-========================= AUTOSTART
-#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow
-
+========================= RANDOM
 
 alias telebeam=sshfs
 telebeam strfry@zrh.strfry.org: zrh
-
-
-
-
 
 google libre.fm
 google zomg - console-based libre.fm submission and radio client
