@@ -24,6 +24,7 @@ sex ./kiai.0
 
 if [ ! $? ]; then
 #  sh -c $0 "$@"
+  echo "$@"
 fi
 
 
