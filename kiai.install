@@ -1,0 +1,7 @@
+ 2042  sj
+ 2043  ash
+ 2044  ash -ex
+ 2045  ln -s ash se
+ 2046  history | tail -n 5 >> ../kiai.install
+sudo cp bin/ash -xe /bin/
+source /home/pi/bin/aliases

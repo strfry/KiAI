@@ -1,15 +1,22 @@
-<<<<<<< HEAD
-exit 23
-
-=======
 #!/bin/sex
 
 REPL loop
 bash interactive shell in bash
 
 ===================== ELEKTR01N
-=======
->>>>>>> kiai
+
+===================== PRIORITIES
+
+moar sd cards
+where tf is my sd card reader???
+
+stupid roadblocks
+
+UV4l skype replacement
+
+
+=========================== KIAI USAGE
+
 XXXxxxXXX Shortcuts to differerent environments
 ========= DOCUMENTATION BLOCK
 --------- OTHER BLOCK
@@ -17,9 +24,10 @@ XXXxxxXXX EXEC TASK DEFINITION
 ===---=== DOCUMENTATION TAG
 
 
-========= USAGE
-
 =========================== KIAI USAGE
+
+Usage: =========================== TASK
+
 
 
 ======== PRIORITY
@@ -40,7 +48,6 @@ kiai		Main command
 ~/kiai.0	Current Workspace
 ~/kiai.TASK	Independent Task
 
-#!/existence/bin/kiai
 
 =========================== SKIP
 
@@ -57,26 +64,9 @@ mpc next
 
 exit 42
 
-====================
+==================== AUTORUN
 
 horsesay NIIEEEH
-
-==================== SPRUECHE
-Admins, Liebt Eure User!
-
-Der User ist der Herrscher.
-
-geRootet heisst Dienen, rooten heisst herrschen
-
-==================== FEINDLICHES WELTNETZ
-
-So long suckers
-Wed Jun 29 23:41:59 UTC 2016
-
-
-======================
-git rm -f .bash_history
-# .bash_history is bad git log
 
 
 ======================= MPSYOUTUBE
@@ -103,28 +93,13 @@ google $(head -n 1 kiai.google)
 
 exit 0
 
-=========================== DOC
-
-Usage: =========================== TASK
-
-
 =========================== GOOGLE
 
 # unknown fragment, create new task
 
 
-
-
-
-=========================== LOG 22Jul16
-=======
-#!/bin/sex
-
-#source $HOME/bin/aliases
-
 ===================== INTERACTIVE_EDITOR << ===
 # 21X= == ===**===
->>>>>>> 8df71d4917460e2fc6c289560d430eea6603a780
 
 Cloudsigma:
 	- Assign other IP to BSD VM
@@ -155,7 +130,6 @@ UV4l is spamming google results on Pi+WebRTC, announcing this shit everywhere
 
 Then you invest 1-2 hours, and when you find out it is not working, you are fucked.
 
-Hope you die soon,
 Jonathan
 
 ===================== PRIORITIES
@@ -204,15 +178,9 @@ KIAI must not generate more output than is processed
 =====================
 
 
-export TASK=CLEANUP
-export KIAI=kiai.0
-
 alias XXXXXXXxxxxxxxXXXXXXX=kiai
 
 XXXXXXXxxxxxxxXXXXXXX CLEANUP
-
-git status
-
 
 ===================== TODO
 
@@ -245,28 +213,6 @@ sudo chmod 777 /run/mpd/ && mpd
 
 
 
-=======================
-
-thd --dump /dev/input/event0
-
-google thinkpad compact bluetooth fn key remap
-
-=======
-=========================== INTERACTIVE_EDITOR << ===
-# 21X= == ===**===
-
-echo SUCCESS
-exit
->>>>>>> da4a9fee7b41e55c75f13600d0dd002655a97bed
-
-
-=========================== CLEANUP
-
-RET=$(git status -s | wc -l)
-git status
-
-exit $RET
-
 =========================== INSTALL
 
 cd
@@ -274,8 +220,6 @@ git init
 git remote add github.kiai https://github.com/strfry/kiai/
 
 ln -s "$PWD"/etc/skel/.* .
-
-# "sed s/sex/sh -ex/g" -e 
 
 
 =======

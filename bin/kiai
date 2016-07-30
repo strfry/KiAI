@@ -5,6 +5,39 @@ k $1
 # Usage: kiai
 #        Find and list all available tasks
 
+if [ $1 ]; then
+  
+  # if $1 UPPERCASE -> TASK=$1
+  echo $TASK
+  banner $TASK
+  set -x
+  return 
+fi;
+
+exit 23
+
+set +x
+
+# Identify current Task
+
+# Find Task implementation
+
+# Run/Edit-Loop around that tasks implementation
+
+
+TASK=$1
+echo Task: $TASK
+
+
+#if [ $TASK -e "INTERACTIVE_EDITOR"]; then
+  xnano $TASK
+#fi
+
+echo Preparing git release of KiAi
+
+TASK=CLEANUP
+
+=======
 # Heuristics to determine what kiai.google means..
 
 # Usage: kiai google
