@@ -1,5 +1,3 @@
-# 21X===
-===**===
 #!/bin/sh -e
 
 TASK=$1
@@ -11,11 +9,15 @@ echo Preparing git release of KiAi
 TASK=CLEANUP
 
 
-echo =========================== $TASK
+===================== INTERACTIVE_EDITOR
+
+echo SUCCESS
+
 ===================== CLEANUP
 
-file * 
-if [ ! 0 ]; then
+file *
+
+if [ ! $? ]; then
   echo error
   exit 23
 fi
@@ -36,3 +38,29 @@ sudo chmod 777 /run/mpd/ && mpd
 thd --dump /dev/input/event0
 google thinkpad compact bluetooth fn key remap 
 
+
+===================== NAME IDEAS
+
+set +e
+ritualz
+bell
+book
+candle
+
+
+===================== AUTORUN
+#fortune | cowsay -f /usr/share/cowsay/cows/pony.cow
+#echo "You can't just kill people, Charlie!" | cowsay -f /usr/share/cowsay/cows/pony.cow
+
+alias telebeam=sshfs
+telebeam strfry@zrh.strfry.org: zrh
+
+mpd.kiai
+
+========================= RANDOM
+
+alias telebeam=sshfs
+telebeam strfry@zrh.strfry.org: zrh
+
+google libre.fm
+google zomg - console-based libre.fm submission and radio client

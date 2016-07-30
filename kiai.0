@@ -4,6 +4,122 @@ REPL loop
 bash interactive shell in bash
 
 ===================== ELEKTR01N
+=======
+XXXxxxXXX Shortcuts to differerent environments
+========= DOCUMENTATION BLOCK
+--------- OTHER BLOCK
+XXXxxxXXX EXEC TASK DEFINITION
+===---=== DOCUMENTATION TAG
+
+
+========= USAGE
+
+=========================== KIAI USAGE
+
+
+======== PRIORITY
+===========================     X27
+=====================           X21
+
+
+-------- Directory Structure
+
+/existence Global Repository, /etc
+
+
+
+--------- Command Reference
+sex		Alias to busybox sh -ex
+kiai		Main command
+~/kiai		Equivalent to .bashrc
+~/kiai.0	Current Workspace
+~/kiai.TASK	Independent Task
+
+#!/existence/bin/kiai
+
+=========================== SKIP
+
+SEX="==="
+
+if [ ! -f bin/sex ]; then
+  xnano === bin/sex
+fi
+
+=========================== TRIGGERHAPPY
+
+thd --dump /dev/input/event*
+mpc next
+
+exit 42
+
+====================
+
+horsesay NIIEEEH
+
+==================== SPRUECHE
+Admins, Liebt Eure User!
+
+Der User ist der Herrscher.
+
+geRootet heisst Dienen, rooten heisst herrschen
+
+==================== FEINDLICHES WELTNETZ
+
+So long suckers
+Wed Jun 29 23:41:59 UTC 2016
+
+
+======================
+git rm -f .bash_history
+# .bash_history is bad git log
+
+
+======================= MPSYOUTUBE
+
+mpsyt
+python -m pafy
+# dont want to pip install
+pip install pafy
+
+===================== ETC ORGA
+
+google etckeeper
+
+
+===================== UNICODE FUBAR
+
+unicode_start
+stty iutf8
+
+fix this unicode mess
+
+
+google $(head -n 1 kiai.google)
+
+exit 0
+
+=========================== DOC
+
+Usage: =========================== TASK
+
+
+=========================== GOOGLE
+
+# unknown fragment, create new task
+
+
+
+
+
+=========================== LOG 22Jul16
+=======
+#!/bin/sex
+
+#source $HOME/bin/aliases
+
+===================== INTERACTIVE_EDITOR << ===
+# 21X= == ===**===
+>>>>>>> 8df71d4917460e2fc6c289560d430eea6603a780
 
 Cloudsigma:
 	- Assign other IP to BSD VM
@@ -27,6 +143,8 @@ Luca is a royal asshole and waster of peoples time
 - Undocumented --license-key option
 - Demo OS Download over google drive
 - The image is uncompressed, took me one hour wait
+
+- What is this index=0 shit??
 
 UV4l is spamming google results on Pi+WebRTC, announcing this shit everywhere
 
@@ -71,6 +189,8 @@ Attempting to pair with 01:AC:78:E6:C1:86
 Pairing successful
 [CHG] Device 01:AC:78:E6:C1:86 Modalias: bluetooth:v000Ep3412d6701
 [CHG] Device 01:AC:78:E6:C1:86 Connected: no
+
+===================== CLEANUP
 
 
 ===================== IDEAS
@@ -153,4 +273,7 @@ ln -s "$PWD"/etc/skel/.* .
 # "sed s/sex/sh -ex/g" -e 
 
 
-===
+=======
+google log all activity in shell
+
+#patch zdate DDMonYY Format

@@ -1,6 +1,7 @@
-#!/existence/bin/sex +x
+#!/existence/bin/sex -ex
 
-set +x
+# Usage: kiai
+#        Find and list all available tasks
 
 if [ $1 ]; then
   
@@ -11,6 +12,8 @@ if [ $1 ]; then
   return 
 fi;
 
+exit 23
+
 set +x
 
 # Identify current Task
@@ -19,13 +22,6 @@ set +x
 
 # Run/Edit-Loop around that tasks implementation
 
-#=======-------=======
-#!/bin/sh -ex
-
-#banner KIAI
-
-source $HOME/kiai.0
-#!/bin/sh -e
 
 TASK=$1
 echo Task: $TASK
@@ -39,3 +35,31 @@ echo Preparing git release of KiAi
 
 TASK=CLEANUP
 
+=======
+# Heuristics to determine what kiai.google means..
+
+# Usage: kiai google
+
+# if argv == 2 and kiai.$1 exists and is executable,
+# and does not contain fragments, execute it line by line
+
+echo $0
+echo $1
+echo $2
+
+echo $@
+
+
+nano kiai.0
+sex ./kiai.0
+
+if [ ! $? ]; then
+#  sh -c $0 "$@"
+fi
+
+
+exit 23
+
+xnano kiai
+kiai
+cat kiai
